@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme 2</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff3e0;
+            flex-direction: column;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #FF5722;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="meme2.jpg" alt="Meme 2" onclick="chooseOption('meme5')">
+    <script>
+        function chooseOption(option) {
+            if (option === 'meme5') {
+                window.location.href = 'page5.html';
+            }
+        }
+    </script>
+</body>
+</html>
